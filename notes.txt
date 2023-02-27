@@ -1,0 +1,3 @@
+// "start" for the production mode and "dev" for the development mode write script in package.json file
+
+// make this object when we connect with database { useNewUrlParser: true, useUnifiedTopology: true,useCreateIndex:true}
