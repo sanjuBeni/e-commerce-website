@@ -1,6 +1,8 @@
 const app = require("./app");
 const dotenv = require("dotenv");
 const connectDatabase = require("./config/database");
+// Config path
+dotenv.config({ path: "backend/config/config.env" });
 
 // Handling Uncaught Exception => undefine variable type error
 process.on("uncaughtException", (err) => {
@@ -8,9 +10,6 @@ process.on("uncaughtException", (err) => {
   console.log(`Shutting down the server due to unhandled Exception`);
   process.exit(1);
 });
-
-// Config path
-dotenv.config({ path: "backend/config/config.env" });
 
 // ConnectDatabase
 connectDatabase();
