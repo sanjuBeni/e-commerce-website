@@ -41,7 +41,7 @@ const userSchema = new mongoose.Schema({
   resetPasswordExpire: Date,
 });
 
-// Password Hash
+// Password Hash with the help of event pre is an event
 userSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
     next();
