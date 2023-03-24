@@ -15,19 +15,13 @@ export default function Footer() {
       <div className="midFooter">
         <h1>ECOMMERCE</h1>
         <p>Hight Quality is our first priority</p>
-        <p>Copyrights 2023 &copy; MeSanjay</p>
+        <p>Copyrights 2023 &copy; MeSanjayBeniwal</p>
       </div>
       <div className="rightFooter">
         <h4>Follow Us</h4>
-        <a href="#" target="_blank">
-          Instagram
-        </a>
-        <a href="#" target="_blank">
-          You
-        </a>
-        <a href="#" target="_blank">
-          Facebook
-        </a>
+        <a href="https://github.com">Instagram</a>
+        <a href="https://github.com">You Tube</a>
+        <a href="https://github.com">Facebook</a>
       </div>
     </footer>
   );
